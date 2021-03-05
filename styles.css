@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background: hsl(204, 43%, 93%);
+    color: #fff;
+}
+
+@media (min-width: 376px) {
+    .con {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer a{
+        display: initial;
+    }
+}
+
+span {
+    color: hsl(204, 43%, 93%)
+}
+
+/* Button */
+a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    margin-bottom: 1em;
+    font-weight: bold;
+    box-shadow: 0 0 5px 5px #3333331a;
+}
+
+/* Layout */
+.container {
+    background: #fff;
+    box-shadow: 0 0 5px 5px #3333331a;
+    border-radius: 5px;
+    margin: 2em 1.2em;
+    overflow: hidden;
+}
+
+@media (min-width: 376px) {
+    .container {
+        width: 740px;
+        margin: auto 3em;
+    }
+
+    .column {
+        display: flex;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Typography */
+.heading-1 {
+    font-size: 1.35rem;
+}
+
+.heading-2 {
+    font-size: 1.275rem;
+}
+
+.dollar {
+    font-size: 2.250rem;
+}
+
+.heading-3 {
+    margin: .6em auto;
+    font-size: 1.2rem;
+}
+
+.mid {
+    margin-left: .8em;
+    padding: 0 0 .8rem;
+    vertical-align: middle;
+}
+
+.lh {
+    line-height: 2rem;
+}
+
+.lh-2 {
+    line-height: 1.35em;
+}
+
+/* Padding */
+.pad {
+    padding: 1.23em;
+}
+
+@media (min-width: 376px) {
+    .pad {
+        padding: 2em 4em;
+    }
+
+    .pad-1 {
+        padding: 2em 4.955em;
+    }
+
+    .heading-2 {
+        margin-top: 0;
+    }
+
+    .heading-3 {
+        margin-top: 0;
+        margin-bottom: 1.2em;
+    }
+
+}
+
+/* Color Class */
+.cyan-color {
+    color: hsl(179, 62%, 43%);
+}
+
+.bright-yellow-color {
+    color: hsl(71, 73%, 54%);
+}
+
+.grayish-color {
+    color: hsl(218, 22%, 67%);
+}
+
+.light-cyan {
+    background-color: hsl(179, 62%, 43%, 0.8);
+}
+
+.white-text-color {
+    color: #fff;
+}
+
+.bg-color {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.light-grayish {
+    color: hsl(204, 43%, 93%);
+}
